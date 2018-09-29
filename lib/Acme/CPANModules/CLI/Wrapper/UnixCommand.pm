@@ -53,6 +53,12 @@ _
             script => ['lcpanm', 'lcpanm-script'],
             'x.command' => 'cpanm',
         },
+        {
+            summary => 'Wraps (or filters output of) diff to add colors and highlight words',
+            module => 'App::diffwc',
+            script => ['diffwc', 'diffwc-filter-u'],
+            'x.command' => 'diff',
+        },
     ],
 };
 
