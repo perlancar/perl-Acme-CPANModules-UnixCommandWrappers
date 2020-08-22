@@ -1,6 +1,8 @@
 package Acme::CPANModules::CLI::Wrapper::UnixCommand;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
@@ -57,6 +59,12 @@ _
             summary => 'Wraps (or filters output of) diff to add colors and highlight words',
             module => 'App::diffwc',
             script => ['diffwc', 'diffwc-filter-u'],
+            'x.command' => 'diff',
+        },
+        {
+            summary => 'Diffs two office word-processor documents by first converting them to plaintext',
+            module => 'App::DiffDocText',
+            script => ['diff-doc-text'],
             'x.command' => 'diff',
         },
     ],
