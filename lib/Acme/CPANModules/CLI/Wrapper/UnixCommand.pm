@@ -66,6 +66,12 @@ _
             'x.command' => 'diff',
         },
         {
+            summary => 'Diffs two office spreadsheets by first converting them to directories of CSV files',
+            module => 'App::DiffXlsText',
+            script => ['diff-xls-text'],
+            'x.command' => 'diff',
+        },
+        {
             summary => 'Provides sdif (diff side-by-side with nice color theme), cdif (highlight words with nice color scheme), and watchdiff (watch command and diff output)',
             module => 'App::sdif',
             script => ['sdif', 'cdif', 'watchdiff'],
