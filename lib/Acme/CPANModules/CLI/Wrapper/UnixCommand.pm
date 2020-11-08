@@ -19,6 +19,7 @@ If you know of others, please drop me a message.
 
 _
     entries => [
+        # ssh
         {
             summary => 'Wraps ssh to remember the background terminal color of each user+host you went to',
             module => 'App::sshwrap::hostcolor',
@@ -26,6 +27,7 @@ _
             'x.command' => 'ssh',
         },
 
+        # man
         {
             summary => 'Wraps man to search for (and tab-complete) Perl module documentation',
             module => 'App::manwrap::pm',
@@ -40,6 +42,7 @@ _
             'x.command' => 'git',
         },
 
+        # rsync
         {
             summary => 'Wraps rsync to add color to output, particularly highlighting deletion',
             module => 'App::rsynccolor',
@@ -53,6 +56,7 @@ _
             'x.command' => 'rsync',
         },
 
+        # diff
         {
             summary => 'Wraps (or filters output of) diff to add colors and highlight words',
             module => 'App::diffwc',
@@ -76,13 +80,6 @@ _
             module => 'App::sdif',
             script => ['sdif', 'cdif', 'watchdiff'],
             'x.command' => ['diff', 'watch'],
-        },
-
-        {
-            summary => 'Wraps cpanm to use local CPAN mirror and let you specify script name to install instead of module name',
-            module => 'App::lcpan',
-            script => ['lcpanm', 'lcpanm-script'],
-            'x.command' => 'cpanm',
         },
     ],
 };
