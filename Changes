@@ -1,3 +1,10 @@
+0.005   2020-11-08  Released-By: PERLANCAR; Urgency: medium
+
+	- Add grep-terms.
+
+	- Remove lcpanm (cpanm is not a Unix command).
+
+
 0.004   2020-10-27  Released-By: PERLANCAR; Urgency: medium
 
 	- Add diff-xls-text.
