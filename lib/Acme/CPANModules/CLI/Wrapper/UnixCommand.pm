@@ -81,6 +81,15 @@ _
             script => ['sdif', 'cdif', 'watchdiff'],
             'x.command' => ['diff', 'watch'],
         },
+
+        # grep
+        {
+            summary => 'Print lines that match terms (each term need not be in particular order, support negative search)',
+            module => 'App::GrepUtils',
+            script => ['grep-terms'],
+            'x.command' => ['grep'],
+        },
+
     ],
 };
 
