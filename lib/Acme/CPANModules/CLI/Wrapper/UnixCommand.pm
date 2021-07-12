@@ -70,6 +70,12 @@ _
             'x.command' => 'diff',
         },
         {
+            summary => 'Diffs two PDF files by first converting to plaintext',
+            module => 'App::DiffPDFText',
+            script => ['diff-pdf-text'],
+            'x.command' => 'diff',
+        },
+        {
             summary => 'Diffs two office spreadsheets by first converting them to directories of CSV files',
             module => 'App::DiffXlsText',
             script => ['diff-xls-text'],
