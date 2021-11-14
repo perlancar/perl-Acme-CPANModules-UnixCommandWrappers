@@ -29,6 +29,14 @@ _
             'x.command' => 'convert',
         },
 
+        # cp, mv (ImageMagick)
+        {
+            summary => 'Wrappers for cp & mv to adjust relative symlinks',
+            module => 'App::CpMvUtils',
+            script => ['cp-and-adjust-symlinks', 'mv-and-adjust-symlinks'],
+            'x.command' => ['cp', 'mv'],
+        },
+
         # diff
         {
             summary => 'Wraps (or filters output of) diff to add colors and highlight words',
