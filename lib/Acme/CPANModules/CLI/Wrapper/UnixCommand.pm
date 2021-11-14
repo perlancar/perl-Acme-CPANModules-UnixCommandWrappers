@@ -103,3 +103,8 @@ _
 # ABSTRACT:
 
 =head1 DESCRIPTION
+
+
+=head1 SEE ALSO
+
+Other variants for C<grep>: L<Acme::CPANModules::GrepVariants>
