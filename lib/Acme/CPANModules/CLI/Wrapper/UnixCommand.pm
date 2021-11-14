@@ -124,6 +124,6 @@ _
 =head1 DESCRIPTION
 
 
-=head1 SEE ALSO
+=head1 prepend:SEE ALSO
 
 Other variants for C<grep>: L<Acme::CPANModules::GrepVariants>
