@@ -21,6 +21,14 @@ If you know of others, please drop me a message.
 
 _
     entries => [
+        # convert (ImageMagick)
+        {
+            summary => 'Simple wrappers for ImageMagick\'s convert to process multiple filenames and automatically set output filenames',
+            module => 'App::ImageMagickUtils',
+            script => ['convert-image-to', 'convert-image-to-pdf'],
+            'x.command' => 'convert',
+        },
+
         # diff
         {
             summary => 'Wraps (or filters output of) diff to add colors and highlight words',
