@@ -8,7 +8,7 @@ use strict;
 # VERSION
 
 our $LIST = {
-    summary => "Various CLIs that wrap existing Unix commands",
+    summary => "List of various CLIs that wrap existing Unix commands",
     description => <<'_',
 
 These CLI's usually are meant to be called as the Unix commands they wrap, e.g.:
