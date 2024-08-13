@@ -128,4 +128,6 @@ MARKDOWN
 
 =head1 prepend:SEE ALSO
 
-Other variants for C<grep>: L<Acme::CPANModules::GrepVariants>
+L<Acme::CPANModules::UnixCommandVariants>
+
+L<Acme::CPANModules::UnixCommandImplementations>
