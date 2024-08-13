@@ -1,3 +1,9 @@
+0.009   2024-08-13  Released-By: PERLANCAR; Urgency: medium
+
+        - Rename module/dist
+          Acme-CPANModules-{CLI-Wrapper-UnixCommand,UnixCommandWrappers}.
+
+
 0.008   2022-03-18  Released-By: PERLANCAR; Urgency: low
 
         - No functional changes.
