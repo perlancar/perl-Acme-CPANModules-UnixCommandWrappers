@@ -1,4 +1,4 @@
-package Acme::CPANModules::CLI::Wrapper::UnixCommand;
+package Acme::CPANModules::UnixCommandWrappers;
 
 use strict;
 
@@ -9,7 +9,7 @@ use strict;
 
 our $LIST = {
     summary => "List of various CLIs that wrap existing Unix commands",
-    description => <<'_',
+    description => <<'MARKDOWN',
 
 These CLI's usually are meant to be called as the Unix commands they wrap, e.g.:
 
@@ -19,7 +19,9 @@ But they perform additional stuffs.
 
 If you know of others, please drop me a message.
 
-_
+Keywords: CLI, wrapper, Unix utilities
+
+MARKDOWN
     entries => [
         # convert (ImageMagick)
         {
