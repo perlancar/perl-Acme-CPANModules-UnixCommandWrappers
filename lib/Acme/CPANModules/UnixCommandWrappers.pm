@@ -71,6 +71,14 @@ MARKDOWN
             'x.command' => ['diff', 'watch'],
         },
 
+        # find
+        {
+            summary => 'Wraps find to add sorting',
+            module => 'App::findsort',
+            script => 'findsort',
+            'x.command' => 'find',
+        },
+
         # git
         {
             summary => 'Wraps git to do additional stuff, e.g. set user+email automatically',
